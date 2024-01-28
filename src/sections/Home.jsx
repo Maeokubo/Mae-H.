@@ -24,13 +24,13 @@ const Home = () => {
         <Button />
       </div>
       
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary'>
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 backdrop-contrast-125 bg-white/30'>
           <img
             src={maeday}
             alt='Maeday'
             width={300}
             height={500}
-            className="object-contain z-10 mt-16 rounded-2xl border-dotted border-4 border-stone-500"
+            className="object-contain z-10 mt-16 rounded-tr-xl"
           />
         </div> 
     </section>

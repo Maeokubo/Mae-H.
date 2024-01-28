@@ -8,7 +8,7 @@ const App = () => {
       <Navbar />
       <Contact/>
       
-      <section className="xl:padding-r xl:padding-l wide:padding-r padding-b">
+      <section className="lg:padding-r lg:padding-l wide:padding-r padding-b">
         <Home />
       </section>
       <section className="padding">

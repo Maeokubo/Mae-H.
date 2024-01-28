@@ -16,12 +16,12 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <header className="fixed padding-x py-0 z-50 w-full bg-stone-900">
-      <nav className="flex justify-between item-center max-container text-stone-400 p-8 h-24 px-10">
+    <header className="fixed padding-x py-0 z-50 w-full bg-stone-900 uppercase">
+      <nav className="flex justify-between item-center max-container text-stone-400 p-8 h-24 px-6">
         <a href="/" className="font-montserrat leading-normal text-2xl uppercase font-semibold text-slate-gray">
           Maeday
         </a>
-        <ul className="flex flex-1 justify-end items-center gap-12 font-montserrat max-lg:hidden">
+        <ul className="flex flex-1 justify-end items-center gap-8 font-montserrat max-lg:hidden">
           {navLinks.map((item, index) => (
             <li key={index}>
               <a href={item.href} className="hover:text-yellow p-4">
