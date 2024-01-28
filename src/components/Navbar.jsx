@@ -1,6 +1,5 @@
 import { navLinks } from '../constants';
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { BsFillCloudMoonFill } from 'react-icons/bs';
 
@@ -17,20 +16,20 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <header className="fixed padding-x py-0 z-50 w-full">
+    <header className="fixed padding-x py-0 z-50 w-full bg-stone-900">
       <nav className="flex justify-between item-center max-container text-stone-400 p-8 h-24 px-10">
         <a href="/" className="font-montserrat leading-normal text-2xl uppercase font-semibold text-slate-gray">
           Maeday
         </a>
-        <ul className="flex flex-1 justify-end items-center gap-14 font-montserrat max-lg:hidden">
+        <ul className="flex flex-1 justify-end items-center gap-12 font-montserrat max-lg:hidden">
           {navLinks.map((item, index) => (
             <li key={index}>
-              <a href={item.href} className="hover:text-yellow-700 p-4">
+              <a href={item.href} className="hover:text-yellow p-4">
                 {item.label}
               </a>
             </li>
           ))}
-          <li className="hover:text-yellow-700 p-4">
+          <li className="hover:text-yellow p-4">
             <BsFillCloudMoonFill onClick={() => setDarkMode(!darkMode)} />
           </li>
         </ul>
@@ -41,7 +40,7 @@ const Navbar = () => {
           <ul className="flex flex-col uppercase text-stone-50 p-4 pt-22">
             {navLinks.map((item, index) => (
               <li key={index}>
-                <a href={item.href} className="hover:text-yellow-700 border-b p-4 md:p-4">
+                <a href={item.href} className="hover:text-yellow border-b p-4 md:p-4">
                   {item.label}
                 </a>
               </li>

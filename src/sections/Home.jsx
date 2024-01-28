@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section className={`{darkMode ? "dark" : '' } w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container`} >
       <div className='relative xl:w-3/6 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
-        <p className='text-3xl font-montserrat text-coral-red mb-[-28px]'>
+        <p className='text-3xl font-montserrat text-yellow mb-[-28px]'>
           Hazuki Okubo
         </p>
 
@@ -15,7 +15,7 @@ const Home = () => {
           Hi, My name's Mae
           </span> 
           <br/>
-          <span className="text-coral-red inline-block mt-1">I'm a Full Stack Software Development</span>  
+          <span className="text-yellow inline-block mt-1">I'm a Full Stack Software Development</span>  
         </h1>
 
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-4 mb-14 sm:max-w-lg'>
@@ -30,7 +30,7 @@ const Home = () => {
             alt='Maeday'
             width={300}
             height={500}
-            className="object-contain z-10 mt-16 rounded-2xl border-dotted border-4 border-sky-500"
+            className="object-contain z-10 mt-16 rounded-2xl border-dotted border-4 border-stone-500"
           />
         </div> 
     </section>

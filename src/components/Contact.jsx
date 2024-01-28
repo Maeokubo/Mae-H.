@@ -8,7 +8,7 @@ const Contact = () => {
       transform: 'rotate(180deg)',
       position: 'fixed',
       top: '18rem',
-      left: '-8.8rem',   
+      left: '-8.8rem', 
     }
   
     const iconStyle = {
@@ -22,10 +22,10 @@ const Contact = () => {
   
     return (
       <div style={sidebarStyle} className="justify-center flex gap-8  text-stone-400">
-        <a href="mailto:Okubo.mae@gmail.com" target="_blank" ><AiFillMail className="hover:bg-yellow-700 text-3xl inline-block mx-2 " style={iconStyle} /></a>
-        <a href="https://github.com/Maeokubo" target="_blank" ><AiFillGithub className=" hover:bg-yellow-700 text-3xl inline-block mx-2" style={iconStyle} /></a>
-        <a href="https://www.linkedin.com/in/hazuki-okubo-8a8148262/" target="_blank" ><AiFillLinkedin className=" hover:bg-yellow-700 text-3xl inline-block mx-2" style={iconStyle} /></a>
-        <a href="https://www.instagram.com/okubo___/?igsh=MXRvdDJ2OGttMGZoYQ%3D%3D&utm_source=qr" target="_blank" ><AiFillInstagram className=" hover:bg-yellow-700 text-3xl inline-block mx-2" style={iconStyle} /></a>
+        <a href="mailto:Okubo.mae@gmail.com" target="_blank" ><AiFillMail className="hover:bg-yellow text-3xl inline-block mx-2 " style={iconStyle} /></a>
+        <a href="https://github.com/Maeokubo" target="_blank" ><AiFillGithub className=" hover:bg-yellow text-3xl inline-block mx-2" style={iconStyle} /></a>
+        <a href="https://www.linkedin.com/in/hazuki-okubo-8a8148262/" target="_blank" ><AiFillLinkedin className=" hover:bg-yellow text-3xl inline-block mx-2" style={iconStyle} /></a>
+        <a href="https://www.instagram.com/okubo___/?igsh=MXRvdDJ2OGttMGZoYQ%3D%3D&utm_source=qr" target="_blank" ><AiFillInstagram className=" hover:bg-yellow text-3xl inline-block mx-2" style={iconStyle} /></a>
       </div>
       
     )

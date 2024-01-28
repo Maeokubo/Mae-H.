@@ -11,7 +11,7 @@ const Demo = () => {
         <h2 className="absolute font-palanquin capitalize text-4xl md:text-4xl sm:text-7xl lg:max-w-5xl font-bold mt-32 left-2">
           Here are some of the projects I've worked on.
         </h2>
-        <div className="absolute bg-slate-600 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-10 w-full lg:max-w-6xl">
+        <div className="-mt-36 absolute bg-slate-600 top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-4 w-full lg:max-w-5xl">
           {projects.map((project, index) => (
             <ProjectsList key={index} {...project} />
           ))}
