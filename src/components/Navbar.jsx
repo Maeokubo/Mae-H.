@@ -37,10 +37,10 @@ const Navbar = () => {
           {!nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
         </div>
         <div className={!nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-stone-900 ease-in-out duration-500" : "fixed left-[-100%]"} >
-          <ul className="flex flex-col uppercase text-stone-50 p-4 pt-22">
+          <ul className="flex flex-col uppercase text-stone-50 p-10 gap-4 pt-28">
             {navLinks.map((item, index) => (
               <li key={index}>
-                <a href={item.href} className="hover:text-yellow border-b p-4 md:p-4">
+                <a href={item.href} className="hover:text-yellow p-10 md:p-4">
                   {item.label}
                 </a>
               </li>

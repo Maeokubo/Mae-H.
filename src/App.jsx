@@ -8,7 +8,7 @@ const App = () => {
       <Navbar />
       <Contact/>
       
-      <section className="lg:padding-r lg:padding-l wide:padding-r padding-b">
+      <section className="lg:padding-r lg:padding-l wide:padding-r padding-b px-10">
         <Home />
       </section>
       <section className="padding">
@@ -17,13 +17,13 @@ const App = () => {
       <section className='padding-x py-10'>
         <Tools />
       </section>
-      <section className="padding">
+      <section className="padding px-4">
         <Demo />
       </section>
-      <section className="padding-x py-10 bg-zinc-300">
+      <section className="padding-x py-20 bg-zinc-300">
         <Blogs />
       </section>
-      <section className="bg-stone-900 padding-x padding-t pb-8">
+      <section className="bg-stone-900 padding ">
         <Footer />
       </section>
      

@@ -2,17 +2,15 @@ import { iconsImages } from "../constants"
 
 const Tools = () => {
   return (
-    <section className="max-container flex justify-center flex-wrap">
-     <div className="mt-12 grid lg:grid-cols-4 mdgrid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-10">
-        <h3 className="lg:max-w-lg mt-2 font-montserrat text-slate-gray text-2xl leading-8 sm:max-w-lg">
+    <section className="max-container flex justify-center -pt-8">
+        <h3 className="lg:max-w-lg mt-2 ml-4 font-montserrat text-neutral-950 text-4xl leading-12 sm:max-w-lg">
           Tools and technologies I've been working with recently
         </h3>
-        <div className=" lg:max-w-md mt-2 font-montserrat text-slate-gray sm:max-w-md flex flex-flow-col ">
+        <div className=" lg:max-w-md mt-2 sm:max-w-md flex flex-wrap">
           {iconsImages.map((tool, index) => (
-            <img src={tool.icon} alt={tool.alt} key={index} width={70} className="px-4 py-7 "/>
+            <img src={tool.icon} alt={tool.alt} key={index} width={50} className="px-2 py-8 max-w-xs sm:max-w-xs"/>
           ))}
         </div>
-      </div>
   </section>
   )
 }

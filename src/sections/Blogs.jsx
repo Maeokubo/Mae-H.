@@ -2,7 +2,7 @@ import smashCake from "../assets/images/son.png";
 
 const Blogs = () => {
   return (
-    <section className="max-container">
+    <section id="blog" className="max-container mb-12 pt-28">
     <h3 className="font-palanquin text-center text-4xl font-bold uppercase">
     <span className="text-coral-red"> Maeday </span> Dev
     </h3>

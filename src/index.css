@@ -47,7 +47,7 @@ a {
   }
 
   .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-neutral-600 max-sm:rounded-full;
   }
 }
 
@@ -79,8 +79,8 @@ a {
   .padding-b {
     @apply sm:pb-24 pb-12;
   }
-
   .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
+    @apply font-montserrat text-lg leading-7;
   }
+ 
 }
