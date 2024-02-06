@@ -1,4 +1,5 @@
 import smashCake from "../assets/images/son.png";
+import snow from "../assets/images/snow.jpg";
 
 const Blogs = () => {
   return (
@@ -11,7 +12,7 @@ const Blogs = () => {
     </p>
     <div className="flex justify-center items-center" >
     <img src={smashCake} alt="smash cake" width={300} />
-
+    <img src={snow} alt="smash cake" width={300} />
     </div>
    
  
