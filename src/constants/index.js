@@ -36,10 +36,10 @@ export const projects = [
     link:"https://github.com/Maeokubo/Team-collaboration"
   },
   { photo: project4, 
-    linkWeb:"/",
+    linkWeb:"https://home-service-44sg.onrender.com/",
     description:"We worked with version control systems like Git, enhancing team collaboration on a React project. Additionally, wrote server-side code using Node.js, and designed and implemented database schemas using PostgreSQL. Implement Scrum framework to improve team collaboration, productivity and deliver project on-time",
     tools:"react, tailwind css, postgresql, superdbase",
-    link:"/"
+    link:"https://github.com/P-Pacharadanai/home-service"
   },
   { photo: project3,
     linkWeb:"https://nike-website-drab-chi.vercel.app/", 
